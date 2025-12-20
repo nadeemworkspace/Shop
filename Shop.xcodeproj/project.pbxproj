@@ -6,17 +6,43 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		082018622EF6F9B3001B5AAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0820185E2EF6F9B3001B5AAF /* Assets.xcassets */; };
+		082018642EF6F9B3001B5AAF /* ShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018602EF6F9B3001B5AAF /* ShopApp.swift */; };
+		082018782EF6F9D6001B5AAF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018712EF6F9D6001B5AAF /* SplashView.swift */; };
+		082018792EF6F9D6001B5AAF /* AppTourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018702EF6F9D6001B5AAF /* AppTourView.swift */; };
+		0820187A2EF6F9D6001B5AAF /* TourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820186E2EF6F9D6001B5AAF /* TourModel.swift */; };
+		0820187B2EF6F9D6001B5AAF /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018762EF6F9D6001B5AAF /* CustomFont.swift */; };
+		0820187C2EF6F9D6001B5AAF /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018752EF6F9D6001B5AAF /* CustomColors.swift */; };
+		0820187D2EF6F9D6001B5AAF /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018742EF6F9D6001B5AAF /* CustomButtons.swift */; };
+		0820187E2EF6F9D6001B5AAF /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0820186A2EF6F9D6001B5AAF /* Sora-SemiBold.ttf */; };
+		0820187F2EF6F9D6001B5AAF /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 082018672EF6F9D6001B5AAF /* Sora-Light.ttf */; };
+		082018802EF6F9D6001B5AAF /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 082018662EF6F9D6001B5AAF /* Sora-Bold.ttf */; };
+		082018812EF6F9D6001B5AAF /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 082018682EF6F9D6001B5AAF /* Sora-Medium.ttf */; };
+		082018822EF6F9D6001B5AAF /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 082018692EF6F9D6001B5AAF /* Sora-Regular.ttf */; };
+		082018832EF6F9D6001B5AAF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0820186C2EF6F9D6001B5AAF /* Launch Screen.storyboard */; };
+		082018842EF6F9D6001B5AAF /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 082018652EF6F9D6001B5AAF /* Inter-Bold.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0820183E2EF6F7D9001B5AAF /* Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0820185E2EF6F9B3001B5AAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		082018602EF6F9B3001B5AAF /* ShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopApp.swift; sourceTree = "<group>"; };
+		082018652EF6F9D6001B5AAF /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		082018662EF6F9D6001B5AAF /* Sora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Bold.ttf"; sourceTree = "<group>"; };
+		082018672EF6F9D6001B5AAF /* Sora-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Light.ttf"; sourceTree = "<group>"; };
+		082018682EF6F9D6001B5AAF /* Sora-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Medium.ttf"; sourceTree = "<group>"; };
+		082018692EF6F9D6001B5AAF /* Sora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Regular.ttf"; sourceTree = "<group>"; };
+		0820186A2EF6F9D6001B5AAF /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-SemiBold.ttf"; sourceTree = "<group>"; };
+		0820186C2EF6F9D6001B5AAF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0820186E2EF6F9D6001B5AAF /* TourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourModel.swift; sourceTree = "<group>"; };
+		082018702EF6F9D6001B5AAF /* AppTourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTourView.swift; sourceTree = "<group>"; };
+		082018712EF6F9D6001B5AAF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		082018742EF6F9D6001B5AAF /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		082018752EF6F9D6001B5AAF /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		082018762EF6F9D6001B5AAF /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		082018862EF6FA41001B5AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		082018402EF6F7D9001B5AAF /* Shop */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Shop;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0820183B2EF6F7D9001B5AAF /* Frameworks */ = {
@@ -32,7 +58,7 @@
 		082018352EF6F7D9001B5AAF = {
 			isa = PBXGroup;
 			children = (
-				082018402EF6F7D9001B5AAF /* Shop */,
+				082018612EF6F9B3001B5AAF /* Shop */,
 				0820183F2EF6F7D9001B5AAF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +69,85 @@
 				0820183E2EF6F7D9001B5AAF /* Shop.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		082018612EF6F9B3001B5AAF /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				082018852EF6F9EA001B5AAF /* App */,
+				0820186D2EF6F9D6001B5AAF /* LaunchScreen */,
+				082018732EF6F9D6001B5AAF /* Onboarding */,
+				0820186B2EF6F9D6001B5AAF /* Fonts */,
+				082018772EF6F9D6001B5AAF /* UIComponents */,
+				082018862EF6FA41001B5AAF /* Info.plist */,
+				0820185E2EF6F9B3001B5AAF /* Assets.xcassets */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		0820186B2EF6F9D6001B5AAF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				082018652EF6F9D6001B5AAF /* Inter-Bold.ttf */,
+				082018662EF6F9D6001B5AAF /* Sora-Bold.ttf */,
+				082018672EF6F9D6001B5AAF /* Sora-Light.ttf */,
+				082018682EF6F9D6001B5AAF /* Sora-Medium.ttf */,
+				082018692EF6F9D6001B5AAF /* Sora-Regular.ttf */,
+				0820186A2EF6F9D6001B5AAF /* Sora-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0820186D2EF6F9D6001B5AAF /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0820186C2EF6F9D6001B5AAF /* Launch Screen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		0820186F2EF6F9D6001B5AAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0820186E2EF6F9D6001B5AAF /* TourModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		082018722EF6F9D6001B5AAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				082018702EF6F9D6001B5AAF /* AppTourView.swift */,
+				082018712EF6F9D6001B5AAF /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		082018732EF6F9D6001B5AAF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0820186F2EF6F9D6001B5AAF /* Model */,
+				082018722EF6F9D6001B5AAF /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		082018772EF6F9D6001B5AAF /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				082018742EF6F9D6001B5AAF /* CustomButtons.swift */,
+				082018752EF6F9D6001B5AAF /* CustomColors.swift */,
+				082018762EF6F9D6001B5AAF /* CustomFont.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		082018852EF6F9EA001B5AAF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				082018602EF6F9B3001B5AAF /* ShopApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +164,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				082018402EF6F7D9001B5AAF /* Shop */,
 			);
 			name = Shop;
 			packageProductDependencies = (
@@ -109,6 +211,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0820187E2EF6F9D6001B5AAF /* Sora-SemiBold.ttf in Resources */,
+				0820187F2EF6F9D6001B5AAF /* Sora-Light.ttf in Resources */,
+				082018802EF6F9D6001B5AAF /* Sora-Bold.ttf in Resources */,
+				082018812EF6F9D6001B5AAF /* Sora-Medium.ttf in Resources */,
+				082018822EF6F9D6001B5AAF /* Sora-Regular.ttf in Resources */,
+				082018832EF6F9D6001B5AAF /* Launch Screen.storyboard in Resources */,
+				082018842EF6F9D6001B5AAF /* Inter-Bold.ttf in Resources */,
+				082018622EF6F9B3001B5AAF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +229,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082018782EF6F9D6001B5AAF /* SplashView.swift in Sources */,
+				082018792EF6F9D6001B5AAF /* AppTourView.swift in Sources */,
+				0820187A2EF6F9D6001B5AAF /* TourModel.swift in Sources */,
+				0820187B2EF6F9D6001B5AAF /* CustomFont.swift in Sources */,
+				0820187C2EF6F9D6001B5AAF /* CustomColors.swift in Sources */,
+				0820187D2EF6F9D6001B5AAF /* CustomButtons.swift in Sources */,
+				082018642EF6F9B3001B5AAF /* ShopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +373,13 @@
 				DEVELOPMENT_TEAM = 649YS6C548;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,11 +407,13 @@
 				DEVELOPMENT_TEAM = 649YS6C548;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
