@@ -30,7 +30,7 @@ struct PrimaryButton: View {
 
 #Preview(traits: .sizeThatFitsLayout) {
     PrimaryButton(title: "Next") {
-        print("Action....")
+        print("Action....!")
     }
     .padding()
 }
