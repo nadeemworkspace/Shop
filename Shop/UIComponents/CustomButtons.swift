@@ -21,9 +21,28 @@ struct PrimaryButton: View {
                 .font(.sora(.semibold, size: 16))
                 .foregroundStyle(.black)
                 .frame(maxWidth: .infinity)
-                .padding()
+                .padding(20)
                 .background(Color.primaryColor)
                 .clipShape(RoundedRectangle(cornerRadius: 16))
+        }
+    }
+}
+
+struct BackButton: View {
+    let completion: () -> Void
+    var body: some View {
+        HStack {
+            Button {
+                completion()
+            } label: {
+                Image("backButton")
+                    .renderingMode(.original)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 40, height: 40)
+                    .contentShape(Rectangle())
+            }
+            Spacer()
         }
     }
 }

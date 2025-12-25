@@ -22,6 +22,9 @@
 		082018822EF6F9D6001B5AAF /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 082018692EF6F9D6001B5AAF /* Sora-Regular.ttf */; };
 		082018832EF6F9D6001B5AAF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0820186C2EF6F9D6001B5AAF /* Launch Screen.storyboard */; };
 		082018842EF6F9D6001B5AAF /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 082018652EF6F9D6001B5AAF /* Inter-Bold.ttf */; };
+		082018A02EF84268001B5AAF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820189F2EF84268001B5AAF /* LoginView.swift */; };
+		082018A32EF84E0B001B5AAF /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018A22EF84E0B001B5AAF /* LandingView.swift */; };
+		082018A52EF84F43001B5AAF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018A42EF84F43001B5AAF /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		082018752EF6F9D6001B5AAF /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		082018762EF6F9D6001B5AAF /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		082018862EF6FA41001B5AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0820189F2EF84268001B5AAF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		082018A22EF84E0B001B5AAF /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		082018A42EF84F43001B5AAF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 				082018852EF6F9EA001B5AAF /* App */,
 				0820186D2EF6F9D6001B5AAF /* LaunchScreen */,
 				082018732EF6F9D6001B5AAF /* Onboarding */,
+				0820189E2EF84257001B5AAF /* Login */,
+				082018A12EF84DFC001B5AAF /* Landing */,
 				0820186B2EF6F9D6001B5AAF /* Fonts */,
 				082018772EF6F9D6001B5AAF /* UIComponents */,
 				082018862EF6FA41001B5AAF /* Info.plist */,
@@ -117,8 +125,8 @@
 		082018722EF6F9D6001B5AAF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				082018702EF6F9D6001B5AAF /* AppTourView.swift */,
 				082018712EF6F9D6001B5AAF /* SplashView.swift */,
+				082018702EF6F9D6001B5AAF /* AppTourView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 				082018742EF6F9D6001B5AAF /* CustomButtons.swift */,
 				082018752EF6F9D6001B5AAF /* CustomColors.swift */,
 				082018762EF6F9D6001B5AAF /* CustomFont.swift */,
+				082018A42EF84F43001B5AAF /* CustomTextField.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -148,6 +157,22 @@
 				082018602EF6F9B3001B5AAF /* ShopApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		0820189E2EF84257001B5AAF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0820189F2EF84268001B5AAF /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		082018A12EF84DFC001B5AAF /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				082018A22EF84E0B001B5AAF /* LandingView.swift */,
+			);
+			path = Landing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,12 +254,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082018A32EF84E0B001B5AAF /* LandingView.swift in Sources */,
 				082018782EF6F9D6001B5AAF /* SplashView.swift in Sources */,
 				082018792EF6F9D6001B5AAF /* AppTourView.swift in Sources */,
 				0820187A2EF6F9D6001B5AAF /* TourModel.swift in Sources */,
+				082018A52EF84F43001B5AAF /* CustomTextField.swift in Sources */,
 				0820187B2EF6F9D6001B5AAF /* CustomFont.swift in Sources */,
 				0820187C2EF6F9D6001B5AAF /* CustomColors.swift in Sources */,
 				0820187D2EF6F9D6001B5AAF /* CustomButtons.swift in Sources */,
+				082018A02EF84268001B5AAF /* LoginView.swift in Sources */,
 				082018642EF6F9B3001B5AAF /* ShopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
