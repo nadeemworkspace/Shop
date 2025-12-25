@@ -11,6 +11,7 @@ struct AppTourView: View {
 
     private let data = TourModel.displayData
     @State private var currentIndex: Int = 0
+    @State private var moveToLogin: Bool = false
 
     private var currentData: TourModel {
         data[currentIndex]
@@ -32,9 +33,11 @@ struct AppTourView: View {
                 // Details with Button
                 detailsView
             }
-            .ignoresSafeArea(edges: .bottom)
         }
         .navigationBarBackButtonHidden(true)
+        .navigationDestination(isPresented: $moveToLogin) {
+            LoginView()
+        }
     }
 }
 
@@ -94,8 +97,11 @@ extension AppTourView {
         }
         .padding()
         .frame(height: 300)
-        .background(.black)
-        .clipShape(RoundedRectangle(cornerRadius: 16))
+        .background {
+            Color.black
+                .clipShape(UnevenRoundedRectangle(topLeadingRadius: 16, topTrailingRadius: 16))
+                .ignoresSafeArea(edges: .bottom)
+        }
     }
     
     @ViewBuilder
@@ -139,7 +145,7 @@ extension AppTourView {
         if currentIndex < data.count - 1 {
             currentIndex += 1
         } else {
-            print("Finished tour")
+            moveToLogin.toggle()
         }
     }
 

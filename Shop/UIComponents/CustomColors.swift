@@ -10,6 +10,7 @@ import SwiftUI
 extension Color {
     static let appBackground = Color(hex: "#1E1E1E")
     static let primaryColor = Color(hex: "#D7FC70")
+    static let textFieldBackground = Color(hex: "#111111")
 }
 
 extension Color {
