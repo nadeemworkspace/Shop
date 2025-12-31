@@ -29,7 +29,7 @@ struct LoginView: View {
                     // Email Textfield
                     CustomTextField(text: $email, placeHolder: "Enter your email", keyboardType: .emailAddress)
                     // Password Textfield
-                    CustomTextField(text: $passWord, placeHolder: "Enter your password", keyboardType: .emailAddress)
+                    CustomTextField(text: $passWord, placeHolder: "Enter your password", isSecuredField: true)
                     // Sign In Button
                     PrimaryButton(title: "Log In") {
                         moveToLanding = true

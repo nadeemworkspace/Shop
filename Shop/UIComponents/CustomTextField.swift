@@ -11,28 +11,31 @@ struct CustomTextField: View {
     
     @Binding var text: String
     let placeHolder: String
+    let isSecuredField: Bool
     let keyboardType: UIKeyboardType
     
-    init(text: Binding<String>, placeHolder: String, keyboardType: UIKeyboardType = .asciiCapable) {
+    init(text: Binding<String>, placeHolder: String, isSecuredField: Bool = false, keyboardType: UIKeyboardType = .asciiCapable) {
         self._text = text
         self.placeHolder = placeHolder
+        self.isSecuredField = isSecuredField
         self.keyboardType = keyboardType
     }
     
     var body: some View {
-        TextField("", text: $text, prompt: Text(placeHolder)
-            .foregroundStyle(.white.opacity(0.5))
-        )
-        .font(.sora(.regular, size: 16))
-        .tint(Color.primaryColor)
-        .padding(20)
-        .background(Color.textFieldBackground)
-        .foregroundStyle(.white)
-        .clipShape(RoundedRectangle(cornerRadius: 16))
-        .overlay(
-            RoundedRectangle(cornerRadius: 16)
-                .stroke(Color.white.opacity(0.5), lineWidth: 1)
-        )
+        Group {
+            if isSecuredField {
+                SecureField("", text: $text, prompt: Text(placeHolder)
+                    .foregroundStyle(.white.opacity(0.5))
+                )
+            } else {
+                TextField("", text: $text, prompt: Text(placeHolder)
+                    .foregroundStyle(.white.opacity(0.5))
+                )
+                .keyboardType(keyboardType)
+            }
+        }
+        .customTextField()
+        .keyboardType(keyboardType)
     }
 }
 

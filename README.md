@@ -31,9 +31,7 @@ All screens and components are inspired by the above design.
 - Modern Ecommerce UI
 - Reusable components
 - Smooth navigation flow
-- Light & Dark mode support
 - Clean and readable code structure
-- iOS responsive design
 
 ---
 
@@ -50,4 +48,4 @@ All screens and components are inspired by the above design.
 - Cart Screen  
 - Checkout UI  
 - Order Confirmation  
-- Profil
+- Profile
