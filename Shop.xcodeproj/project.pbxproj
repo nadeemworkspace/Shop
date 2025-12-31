@@ -25,6 +25,7 @@
 		082018A02EF84268001B5AAF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0820189F2EF84268001B5AAF /* LoginView.swift */; };
 		082018A32EF84E0B001B5AAF /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018A22EF84E0B001B5AAF /* LandingView.swift */; };
 		082018A52EF84F43001B5AAF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018A42EF84F43001B5AAF /* CustomTextField.swift */; };
+		082018A92F04EBC6001B5AAF /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082018A82F04EBC6001B5AAF /* CustomViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		0820189F2EF84268001B5AAF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		082018A22EF84E0B001B5AAF /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		082018A42EF84F43001B5AAF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		082018A82F04EBC6001B5AAF /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				082018752EF6F9D6001B5AAF /* CustomColors.swift */,
 				082018762EF6F9D6001B5AAF /* CustomFont.swift */,
 				082018A42EF84F43001B5AAF /* CustomTextField.swift */,
+				082018A82F04EBC6001B5AAF /* CustomViewModifier.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				0820187B2EF6F9D6001B5AAF /* CustomFont.swift in Sources */,
 				0820187C2EF6F9D6001B5AAF /* CustomColors.swift in Sources */,
 				0820187D2EF6F9D6001B5AAF /* CustomButtons.swift in Sources */,
+				082018A92F04EBC6001B5AAF /* CustomViewModifier.swift in Sources */,
 				082018A02EF84268001B5AAF /* LoginView.swift in Sources */,
 				082018642EF6F9B3001B5AAF /* ShopApp.swift in Sources */,
 			);
