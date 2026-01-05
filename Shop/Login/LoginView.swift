@@ -55,7 +55,7 @@ struct LoginView: View {
             }
         }
         .navigationDestination(isPresented: $moveToLanding) {
-            LandingView()
+            HomeView()
         }
     }
 }
