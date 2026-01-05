@@ -26,11 +26,29 @@ struct TextFieldModifier: ViewModifier {
     
 }
 
+struct NoAnimationButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .opacity(configuration.isPressed ? 1.0 : 1.0)
+    }
+}
+
+struct NoAnimationButtonModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .buttonStyle(NoAnimationButtonStyle())
+    }
+}
+
 // MARK: VIEW
 extension View {
     
     func customTextField() -> some View {
         self.modifier(TextFieldModifier())
+    }
+    
+    func noAnimationButton() -> some View {
+        self.modifier(NoAnimationButtonModifier())
     }
     
 }
